@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A482B4416BDA2DA00EF4B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A482B4316BDA2DA00EF4B9B /* Foundation.framework */; };
+		2A482B4716BDA2DA00EF4B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A482B4616BDA2DA00EF4B9B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A482B3D16BDA2DA00EF4B9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A482B3F16BDA2DA00EF4B9B /* SpinRiteRecoveryDisc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpinRiteRecoveryDisc; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A482B4316BDA2DA00EF4B9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A482B4616BDA2DA00EF4B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A482B4916BDA2DA00EF4B9B /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A482B3C16BDA2DA00EF4B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A482B4416BDA2DA00EF4B9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A482B3416BDA2DA00EF4B9B = {
+			isa = PBXGroup;
+			children = (
+				2A482B4516BDA2DA00EF4B9B /* Classes */,
+				2A482B4216BDA2DA00EF4B9B /* Frameworks */,
+				2A482B4016BDA2DA00EF4B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A482B4016BDA2DA00EF4B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A482B3F16BDA2DA00EF4B9B /* SpinRiteRecoveryDisc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A482B4216BDA2DA00EF4B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A482B4316BDA2DA00EF4B9B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A482B4516BDA2DA00EF4B9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A482B4616BDA2DA00EF4B9B /* main.m */,
+				2A482B4816BDA2DA00EF4B9B /* Supporting Files */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A482B4816BDA2DA00EF4B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A482B4916BDA2DA00EF4B9B /* prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A482B3E16BDA2DA00EF4B9B /* SpinRiteRecoveryDisc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A482B4E16BDA2DA00EF4B9B /* Build configuration list for PBXNativeTarget "SpinRiteRecoveryDisc" */;
+			buildPhases = (
+				2A482B3B16BDA2DA00EF4B9B /* Sources */,
+				2A482B3C16BDA2DA00EF4B9B /* Frameworks */,
+				2A482B3D16BDA2DA00EF4B9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinRiteRecoveryDisc;
+			productName = SpinRiteRecoveryDisk;
+			productReference = 2A482B3F16BDA2DA00EF4B9B /* SpinRiteRecoveryDisc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A482B3616BDA2DA00EF4B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mr. Gecko's Media";
+			};
+			buildConfigurationList = 2A482B3916BDA2DA00EF4B9B /* Build configuration list for PBXProject "SpinRiteRecoveryDisc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A482B3416BDA2DA00EF4B9B;
+			productRefGroup = 2A482B4016BDA2DA00EF4B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A482B3E16BDA2DA00EF4B9B /* SpinRiteRecoveryDisc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A482B3B16BDA2DA00EF4B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A482B4716BDA2DA00EF4B9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A482B4C16BDA2DA00EF4B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A482B4D16BDA2DA00EF4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A482B4F16BDA2DA00EF4B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Classes/prefix.pch;
+				PRODUCT_NAME = SpinRiteRecoveryDisc;
+			};
+			name = Debug;
+		};
+		2A482B5016BDA2DA00EF4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Classes/prefix.pch;
+				PRODUCT_NAME = SpinRiteRecoveryDisc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A482B3916BDA2DA00EF4B9B /* Build configuration list for PBXProject "SpinRiteRecoveryDisc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A482B4C16BDA2DA00EF4B9B /* Debug */,
+				2A482B4D16BDA2DA00EF4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A482B4E16BDA2DA00EF4B9B /* Build configuration list for PBXNativeTarget "SpinRiteRecoveryDisc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A482B4F16BDA2DA00EF4B9B /* Debug */,
+				2A482B5016BDA2DA00EF4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A482B3616BDA2DA00EF4B9B /* Project object */;
+}
